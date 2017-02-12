@@ -1,0 +1,120 @@
+/* General Styles to be Integrated */
+html {
+  background-image:radial-gradient(circle closest-corner at 140px 120px , #fdb813 37%, #FCD440 52%, white 65%);
+
+}
+
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color:black;
+}
+
+hr {
+  margin-bottom: -6em;
+}
+
+/* Upper Nav Styles */
+.nav {
+    margin-top: 0;
+    padding: 0;
+    position: absolute;
+    right: 1em;
+}
+
+ul.nav li {
+  display: inline-block;
+  width: 60px;
+}
+
+
+/* Weird Hover Imaging
+img.top {
+  z-index: 999;
+}
+
+
+img.top,img.bottom {
+  position:absolute;
+  top: 30px;
+  left: 30px;
+  width: 200px;
+  height: 200px;
+}
+
+img.top:hover {
+  visibility: hidden;
+}
+*/
+
+/* Main Bio Styles */
+.bio {
+  text-align: center;
+}
+.bio h2,h4,h6,p,a {
+  font-family: 'Indie Flower', cursive;
+}
+.bio h2 {
+    margin-top: 0;
+    margin-bottom: -20px;
+  font-size: 4em;
+}
+
+.bio h6 {
+  margin-top: 1em;
+  width: 200px;
+}
+
+/* Grid Styles */
+ul.grid {
+
+}
+ul.grid li {
+	display: inline-block;
+  margin: 2em;
+}
+
+ul.grid h4 {
+    font-size: 1.5em;
+    margin-bottom: -0.25em;
+    margin-top: 0;
+    text-align: center;
+    text-decoration: underline;
+}
+
+ul.grid li img {
+    border-radius: 50%;
+    box-shadow: 2px 2px 4px;
+    height: 200px;
+    width: 200px;
+}
+
+ul.grid p {
+/*  display: inline-block;  */
+  text-align: center;
+}
+
+.bio p {
+  text-align: center;
+}
+
+#summary {
+    margin: -1em 15% 1.5em;
+}
+
+/* Footer Styles */
+footer {
+  margin-top: 10em;
+  text-align:center;
+}
+ul.footer li {
+    display: inline-block;
+}
+
+.footer a {
+    font-size: 1.25em;
+    padding: 3em;
+    text-decoration: none;
+}
